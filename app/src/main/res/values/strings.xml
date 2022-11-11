@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Tip Calculator Lab 2</string>
 
-    <string name="calculate_tip">Calculate Tip</string>
+    <string name="calculate_tip_header">Calculate Tip</string>
     <string name="cost_of_service_label">Cost of Service</string>
-    <string name="service_quality_label">Service Quality</string>
+    <string name="tip_percent_label">Tip Percent</string>
     <string name="round_up_tip_label">Round Up Tip</string>
 
     <string name="tip_amount">Tip Amount: %s</string>

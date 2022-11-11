@@ -60,7 +60,7 @@ fun TipCalculatorScreen() {
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         Text(
-            text = stringResource(R.string.calculate_tip),
+            text = stringResource(R.string.calculate_tip_header),
             fontSize = 24.sp,
             modifier = Modifier.align(Alignment.CenterHorizontally)
         )
@@ -78,7 +78,7 @@ fun TipCalculatorScreen() {
             onValueChanged = { costOfServiceInput.value = it }
         )
         EditNumberField(
-            label = R.string.service_quality_label,
+            label = R.string.tip_percent_label,
             keyboardOptions = KeyboardOptions.Default.copy(
                 keyboardType = KeyboardType.Number,
                 imeAction = ImeAction.Done
